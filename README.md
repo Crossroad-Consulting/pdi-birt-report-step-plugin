@@ -6,7 +6,8 @@ The current version of the plugin was tested using the Birt Runtime 4.5.0 and Pe
 
 # Build & Deploy
 ## Gradle setup
-A Gradle script (https://gradle.org/) is used for managing project dependencies, building the code an deploying the plugin. This script can be found in the root of the project: build.gradle. At the top of the file, you need to fill two variables with correct values to be able to build and deploy the plugin:
+A Gradle script (https://gradle.org/) is used for managing project dependencies, building the code an deploying the plugin. This script can be found in the root of the project: build.gradle. We have used Gradle version 2.14.1, although other Gradle versions should work as well.
+At the top of the file, you need to fill two variables with correct values to be able to build and deploy the plugin:
 * pdi_folder: This is the root folder were Pentaho DI is installed (usually called data-integration)
 * birt_lib: This is the lib folder that contains the Birt Runtime library files
 
