@@ -2,7 +2,7 @@
 A Pentaho Data Integration plugin for generating Birt reports within transformations
 
 # Version information
-The current version of the plugin was tested using the Birt Runtime 4.5.0 and Pentaho DI CE 6.1.0.1-196. Other versions were not tested.
+The current version of the plugin was tested using the Birt Runtime 4.5.0, Pentaho DI CE 6.1.0.1-196 and Java 1.8. Other versions were not tested.
 
 # Build & Deploy
 ## Dependant libraries
