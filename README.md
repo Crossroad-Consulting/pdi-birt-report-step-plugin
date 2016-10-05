@@ -19,3 +19,6 @@ The Gradle tasks that can be executed are:
 * recompileBirtJar: This task will recompile the main Birt runtime library, excluding some classes which proved to be incompatible within the Pentaho DI environment. The new jar filed is suffixed with \_updated and placed in the distributions folder of the Gradle build folder.
 * cleanDeploy: This task will delete the Birt Report Step Plugin from the Pentaho DI plugin folder.
 * deploy: This task will deploy the plugin to the Pentaho DI environment. It will copy the compile Birt Report Step Plugin jar, the Birt Runtime library files (excluding the main Birt Runtime library) and the updated Birt Runtime library file to the Pentaho DI plugin folder (under 'birt-report-step-plugin').
+
+# Issues
+This is still a project 'in progress'. The code is not completely clean and still has a lot of possible improvements. Feel free to add issues!
